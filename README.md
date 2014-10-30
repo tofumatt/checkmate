@@ -1,8 +1,18 @@
 # Checkmate
 
-This README outlines the details of collaborating on this Ember application.
+**This project is not yet ready nor is master remotely working properly.
+Consider the project status: _coming soon_.**
 
-A short introduction of this app could easily go here.
+This is a next-gen version of the Foursquare client I wrote called [around][].
+Though it borrows very little code it inherits its spirit and aim: to create
+a great Foursquare app for any web client.
+
+This version is built on [Ember] and [ember-cli], as well as [Cordova].
+
+[around]: https://github.com/mozilla/around
+[Ember]: http://emberjs.com/
+[ember-cli]: http://www.ember-cli.com/
+[Cordova]: http://cordova.apache.org/
 
 ## Prerequisites
 
@@ -49,3 +59,11 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+# License #
+
+This program is free software; it is distributed under an
+[Apache 2.0 License](http://github.com/mozilla/checkmate/blob/master/LICENSE).
+
+---
+
+Copyright (c) 2014 [Matthew Riley MacPherson](http://tofumatt.com).

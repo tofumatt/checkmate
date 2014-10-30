@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tofumatt.checkmate" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Checkmate</name>
+    <description>
+        Next-gen around; Foursquare client for Firefox OS
+    </description>
+    <author email="matt@lonelyvegan.com" href="http://tofumatt.com">
+        tofumatt
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>

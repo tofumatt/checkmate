@@ -1,0 +1,17 @@
+{{#unless accessToken}}
+  <div id="login">
+    <h1>Sign in to Foursquare</h1>
+
+    <p>Checkmate is a Foursquare app for Firefox OS, mobile phones, and web browsers.</p>
+
+    <p>Tap the connect button below to link your Foursquare account and start exploring venues nearby.</p>
+
+    <div class="center">
+      <a id="sign-in" {{bind-attr href=loginURL}}>Sign in with Foursquare</a>
+    </div>
+  </div>
+{{else}}
+  <p>Gathering data... one moment</p>
+{{/unless}}
+
+{{outlet}}

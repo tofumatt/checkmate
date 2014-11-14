@@ -1,1 +1,43 @@
-{{outlet}}
+<section>
+  <div class="bar bar-header bar-positive">
+    <!--
+    <button class="button button-icon icon ion-chevron-left"></button>
+    -->
+    <h1 class="title">Checkmate</h1>
+    <button class="button button-icon icon ion-map" title="Explore"></button>
+    {{!-- content-for 'header' --}}
+  </div>
+  <div class="bar bar-subheader">
+    <h2 class="title">At Mozilla NYC (51 minutes ago)</h2>
+  </div>
+
+  <ion-content overflow-scroll="false">
+    {{outlet}}
+
+    <div class="button-bar">
+      <a class="button button-energized button-small">Nearby</a>
+      <a class="button button-small">Worldwide</a>
+    </div>
+
+    <div class="list">
+      <a class="item item-avatar" href="#">
+        <img src="https://irs0.4sqi.net/img/user/100x100/W5FJ24RUT3FNMQ4W.jpg">
+        <h2>Matthew Riley</h2>
+        <h3>Café Myriade</h3>
+        <h4>a day ago</h4>
+      </a>
+      <a class="item item-avatar" href="#">
+        <img src="https://irs0.4sqi.net/img/user/100x100/PUY224FRODCHY0DD.jpg">
+        <h2>Matthew</h2>
+        <h3>Beretta</h3>
+        <h4>16 days ago</h4>
+        <p>Been too long since I hung out with Erin!</p>
+      </a>
+    </div>
+  </ion-content>
+
+  <div class="bar bar-footer">
+    <button class="button button-large button-outline button-icon
+                   ion-location button-energized" id="check-in"></button>
+  </div>
+</section>

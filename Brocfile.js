@@ -16,6 +16,11 @@ var app = new EmberApp();
 // modules that you would like to import into your application
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
+
+// IndexedDB ember-data driver
+app.import('bower_components/ember-indexeddb-adapter/dist/ember_indexeddb_adapter.js');
+
+// Ionic
 app.import('bower_components/normalize.css/normalize.css');
 app.import('bower_components/ionic/release/css/ionic.css');
 app.import('bower_components/ionic/release/js/ionic.js');

@@ -16,6 +16,9 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      FOURSQUARE_API_DATE: "20130901",
+      FOURSQUARE_CLIENT_ID: "C2ACFUDNBSKDNEQ5DL4GP33TVHH1RHBKA3LU0GUPLGBSYMVZ",
+      FOURSQUARE_SECRET: "LYB32YTFZKMLHM0H3L2CGR0PX25BONJDSYZOKCJ2U1QDTTOH"
     },
 
     cordova: {

@@ -18,7 +18,7 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 // IndexedDB ember-data driver
-app.import('bower_components/ember-indexeddb-adapter/dist/ember_indexeddb_adapter.js');
+app.import('bower_components/ember-localstorage-adapter/localstorage_adapter.js');
 
 // Ionic
 app.import('bower_components/normalize.css/normalize.css');

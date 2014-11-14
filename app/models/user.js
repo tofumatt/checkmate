@@ -5,6 +5,7 @@ var attr = DS.attr;
 var User = DS.Model.extend({
     firstName: attr('string'),
     lastName: attr('string'),
+    foursquareID: attr('number'),
     // photo: ['object']
     // relationship:
     //     allowNull: true
@@ -23,7 +24,8 @@ var User = DS.Model.extend({
     // checkins: ['object']
     // currentLocation: ['object']
 
-    access_token: attr('string'),
+    checkins: DS.hasMany('checkin'),
+    accessToken: attr('string'),
 
     lastUpdated: attr('date')
 });

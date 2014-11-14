@@ -6,20 +6,17 @@ import DS from 'ember-data';
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
+// localStorage.clear();
 var App = Ember.Application.extend({
     modulePrefix: config.modulePrefix,
     podModulePrefix: config.podModulePrefix,
-    Resolver: Resolver
-});
+    Resolver: Resolver,
 
-// App.ApplicationSerializer = DS.IndexedDBSerializer.extend();
-// App.ApplicationAdapter = DS.IndexedDBAdapter.extend({
-//   databaseName: 'checkmate',
-//   version: 1,
-//   migrations: function() {
-//     this.addModel('user');
-//   }
-// });
+    ApplicationSerializer: DS.LSSerializer.extend(),
+    ApplicationAdapter: DS.LSAdapter.extend({
+        namespace: 'checkmate'
+    })
+});
 
 loadInitializers(App, config.modulePrefix);
 

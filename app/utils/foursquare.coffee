@@ -18,7 +18,7 @@ foursquare = (() ->
   apiUrl = "https://api.foursquare.com/v2/"
 
   loginWithAccessToken = (accessToken) ->
-    localStorage["oauth_token"] = accessToken
+    localStorage["accessToken"] = accessToken
 
     $.ajax
       type: 'GET'

@@ -10,7 +10,9 @@ Router.map(function() {
 
   this.resource('user', { path: 'users/:user_id' }, function() { });
   this.route('login');
-  this.route('timeline');
+  this.route('timeline', { path: '/' });
+  this.resource('checkin', { path: 'checkins/:checkin_id' }, function() { });
+  this.resource('venue', { path: 'venues/:venue_id' }, function() { });
 });
 
 export default Router;

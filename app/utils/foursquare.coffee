@@ -34,9 +34,9 @@ foursquare = (() ->
   # including the required OAuth and version arguments.
   # All requests are sent over HTTPS.
   request = (url, args = {}) ->
-    if localStorage["oauth_token"]
+    if localStorage["accessToken"]
       data = {
-        oauth_token: localStorage["oauth_token"]
+        oauth_token: localStorage["accessToken"]
         v: config.APP.FOURSQUARE_API_DATE
       }
     else
@@ -64,7 +64,7 @@ foursquare = (() ->
   upload = (url, postData = {}) ->
     return new Promise (resolve, reject) ->
       data = {
-        oauth_token: localStorage["oauth_token"]
+        oauth_token: localStorage["accessToken"]
         v: config.APP.FOURSQUARE_API_DATE
       }
 

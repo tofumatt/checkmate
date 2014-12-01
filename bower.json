@@ -15,13 +15,18 @@
     "ember-qunit-notifications": "0.0.4",
     "qunit": "~1.15.0",
     "normalize.css": "~3.0.2",
-    "ionic": "~0.9.27"
+    "ionic": "~0.9.27",
+    "localforage": "~1.2.0",
+    "ember-localforage-adapter": "~0.5.2"
   },
   "resolutions": {
     "pressed": "~0.1.0",
     "drag": "master",
     "gaia-dialog": "d8a6155539",
-    "gaia-icons": "0.7.3"
+    "gaia-icons": "0.7.3",
+    "ember": "~1.8",
+    "ember-data": "1.0.0-beta.11",
+    "localforage": "~1.2.0"
   },
   "devDependencies": {
     "ember-localstorage-adapter": "~0.5.0"

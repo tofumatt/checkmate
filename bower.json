@@ -17,7 +17,8 @@
     "normalize.css": "~3.0.2",
     "ionic": "~0.9.27",
     "localforage": "~1.2.0",
-    "ember-localforage-adapter": "~0.5.2"
+    "ember-localforage-adapter": "~0.5.2",
+    "underscore": "~1.7.0"
   },
   "resolutions": {
     "pressed": "~0.1.0",
